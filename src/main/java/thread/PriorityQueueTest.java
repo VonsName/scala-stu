@@ -18,8 +18,11 @@ public class PriorityQueueTest {
             order.setOrderNo("order:" + i);
             queue.add(order);
         }
-        for (int i = 0; i < queue.size(); i++) {
+        System.out.println(queue.size());
+        int size = queue.size();
+        for (int i = 0; i < size; i++) {
             System.out.println(queue.poll());
         }
+        System.out.println(queue.size());
     }
 }
