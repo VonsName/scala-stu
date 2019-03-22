@@ -37,5 +37,7 @@ public class MyClassPathBeanDefinitionScanner extends ClassPathBeanDefinitionSca
         for (String beanDefinitionName : beanDefinitionNames) {
             System.out.println(beanDefinitionName);
         }
+
+        System.out.println(UserBean.class.isAnnotationPresent(MyComponent.class));
     }
 }
