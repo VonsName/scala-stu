@@ -6,4 +6,8 @@ package annotation;
  */
 @MyComponent
 public class UserBean {
+
+    public UserBean() {
+        System.out.println("UserBean");
+    }
 }
