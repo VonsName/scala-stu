@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a07ddd2-6b93-4124-8128-6b8dd80e3864" name="Default Changelist" comment="thread">
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotation/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/ClassPathXmlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/CustomTypeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring2.xml" afterDir="false" />
+    <list default="true" id="4a07ddd2-6b93-4124-8128-6b8dd80e3864" name="Default Changelist" comment="threadJoin and futureTask test">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter10/CaseClassDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter10/FunctionParameter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter10/MatchArrayDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter10/MatchObject.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter10/MatchTypeDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter10/MatchVarDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter10/MidCaseDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter10/PartialFunctionDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter10/SealedClassDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter10/TypeInfer.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/chapter08/HighLevelFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/chapter08/HighLevelFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/chapter09/MatchDemo01.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/chapter09/MatchDemo01.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/chapter09/ZipDemo01.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/chapter09/ZipDemo01.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter05/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter05/MethodAndFunction$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter05/MethodAndFunction$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter05/MethodAndFunction$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter05/MethodAndFunction$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chapter05/MethodAndFunction$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chapter05/MethodAndFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chapter05/MethodAndFunction.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,15 +34,24 @@
     <session id="-781820010">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.1" value="7" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="11" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.3" value="4" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,12 +65,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="25" />
-          <entry key="HTML" value="1" />
-          <entry key="JAVA" value="65" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Scala" value="25" />
-          <entry key="XML" value="3" />
+          <entry key="CLASS" value="58" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="109" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Scala" value="130" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -61,9 +84,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="44" />
-          <entry key="JAVA" value="2187" />
-          <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Scala" value="1845" />
+          <entry key="JAVA" value="3586" />
+          <entry key="PLAIN_TEXT" value="121" />
+          <entry key="Scala" value="13675" />
           <entry key="XML" value="136" />
         </counts>
       </usages-collector>
@@ -72,109 +95,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/annotation/UserBean.java">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/PartialFunctionDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/annotation/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spring/ClassPathXmlTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spring/CustomTypeFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/core/type/filter/TypeFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/core/type/filter/AnnotationTypeFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1794">
-              <caret line="105" column="58" selection-start-line="105" selection-start-column="58" selection-end-line="105" selection-end-column="58" />
-              <folding>
-                <element signature="e#1946#1947#0" expanded="true" />
-                <element signature="e#1986#1987#0" expanded="true" />
-                <element signature="e#3620#3621#0" expanded="true" />
-                <element signature="e#3663#3664#0" expanded="true" />
-                <element signature="e#3744#3745#0" expanded="true" />
-                <element signature="e#3786#3787#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/core/type/filter/AbstractTypeHierarchyTraversingFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-              <folding>
-                <element signature="e#4140#4141#0" expanded="true" />
-                <element signature="e#4159#4160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1426">
-              <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+            <state relative-caret-position="644">
+              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring2.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/TypeInfer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+            <state relative-caret-position="165">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/annotation/MyComponent.java">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/FunctionParameter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="207">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter08/HighLevelFunction.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/collection/immutable/List.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="297" column="21" selection-start-line="297" selection-start-column="21" selection-end-line="297" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -187,6 +147,7 @@
         <option value="Interface" />
         <option value="HTML File" />
         <option value="spring-beans.schema" />
+        <option value="Package Object" />
         <option value="Class" />
       </list>
     </option>
@@ -196,6 +157,8 @@
       <find>add</find>
       <find>poll</find>
       <find>match</find>
+      <find>putIf</find>
+      <find>a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -204,41 +167,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter02/SourceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter02/SourceTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter02/PrintTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter02/FunctionTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/ObjectTest.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter03/UnitScalaTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter04/StdinTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter04/ForTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter04/ForTest2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter04/ForTest3.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter04/ForStep.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter04/BreakTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreadEx.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FinalTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/IUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/IBookService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JavaTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/annotation/MyComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/annotation/UserBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/annotation/MyClassPathBeanDefinitonScanner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/Order.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/Test1.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/chapter05/MethodAndFunction.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/PriorityQueueTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/annotation/MyClassPathBeanDefinitionScanner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/upload.html" />
-        <option value="$PROJECT_DIR$/src/main/java/annotation/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/ClassPathXmlTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/CustomTypeFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring2.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter05/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter05/LazyFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter05/ListTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter05/Dog.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter05/ObjTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter06/TestTiger.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter06/p1/Tiger.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter06/pa/PackageTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter06/ex/ExtendTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter06/AccompanyObj.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter07/ApplyDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter07/TraitDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter07/TraitDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter07/TraitDemo02.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter07/InnerClassDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter07/ImplicitDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/ImplicitDemo02.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/ImplicitValDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/ImplicitClassDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/ListDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/TupeDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/TupleDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/QueueDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/MapDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/MapOperateDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/JavaListDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/FilterPredicate.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/ReduceDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter09/FoldDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter09/ScanDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter09/FoldTestDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/MapOperateTest01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter09/StreamDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter09/ViewDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter09/ParDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter09/OverrideOperate.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter09/MatchDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/MatchTypeDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/MatchArrayDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter09/ZipDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/MatchObject.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/MatchVarDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/MidCaseDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/CaseClassDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/SealedClassDemo01.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/PartialFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/PartialFunctionDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/FunctionParamter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/FunctionParameter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter08/HighLevelFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/chapter10/TypeInfer.scala" />
       </list>
     </option>
   </component>
@@ -288,6 +267,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -312,45 +292,47 @@
               <item name="scala-stu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scala-stu" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala-stu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scala-stu" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala-stu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter08" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scala-stu" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala-stu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="ManagedBean&#9;PSI&#9;JAVA://org.springframework.jmx.export.assembler.AbstractMBeanInfoAssembler#checkManagedBean" />
+    <property name="SearchEverywhereHistoryKey" value="BeanPost&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanPostProcessor&#10;BeanDefinitionPro&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor&#10;ConcurrentH&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;FutureTa&#9;PSI&#9;JAVA://java.util.concurrent.FutureTask&#10;CallA&#9;PSI&#9;JAVA://java.util.concurrent.Callable&#10;ServiceLoader&#9;PSI&#9;JAVA://java.util.ServiceLoader&#10;ManagedBean&#9;PSI&#9;JAVA://org.springframework.jmx.export.assembler.AbstractMBeanInfoAssembler#checkManagedBean" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553678777965" />
-    <property name="last_opened_file_path" value="D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561636316244" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cargo-tracker" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -375,13 +357,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassPathXmlTest">
-    <configuration name="ClassPathXmlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring.ClassPathXmlTest" />
+  <component name="RunManager" selected="Application.TypeInfer">
+    <configuration name="FunctionParamter" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.chapter10.FunctionParameter" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring.*" />
+          <option name="PATTERN" value="com.chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodAndFunction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.chapter05.MethodAndFunction" />
+    <configuration name="HighLevelFunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.chapter08.HighLevelFunction" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chapter05.*" />
+          <option name="PATTERN" value="com.chapter08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,12 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClassPathBeanDefinitionScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotation.MyClassPathBeanDefinitionScanner" />
+    <configuration name="MidCaseDemo01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.chapter10.MidCaseDemo01" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotation.*" />
+          <option name="PATTERN" value="com.chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.PriorityQueueTest" />
+    <configuration name="PartialFunctionDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.chapter10.PartialFunctionDemo" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="com.chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,27 +410,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test2" />
+    <configuration name="TypeInfer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.chapter10.TypeInfer" />
       <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chapter10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyClassPathBeanDefinitionScanner" />
-      <item itemvalue="Application.PriorityQueueTest" />
-      <item itemvalue="Application.Test2" />
-      <item itemvalue="Application.MethodAndFunction" />
-      <item itemvalue="Application.ClassPathXmlTest" />
+      <item itemvalue="Application.MidCaseDemo01" />
+      <item itemvalue="Application.PartialFunctionDemo" />
+      <item itemvalue="Application.FunctionParamter" />
+      <item itemvalue="Application.HighLevelFunction" />
+      <item itemvalue="Application.TypeInfer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassPathXmlTest" />
-        <item itemvalue="Application.MyClassPathBeanDefinitionScanner" />
-        <item itemvalue="Application.MethodAndFunction" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.PriorityQueueTest" />
+        <item itemvalue="Application.TypeInfer" />
+        <item itemvalue="Application.HighLevelFunction" />
+        <item itemvalue="Application.FunctionParamter" />
+        <item itemvalue="Application.PartialFunctionDemo" />
+        <item itemvalue="Application.MidCaseDemo01" />
       </list>
     </recent_temporary>
   </component>
@@ -477,7 +465,22 @@
       <workItem from="1553481160018" duration="2522000" />
       <workItem from="1553561943097" duration="1441000" />
       <workItem from="1553651207720" duration="4082000" />
-      <workItem from="1553731926898" duration="597000" />
+      <workItem from="1553731926898" duration="2082000" />
+      <workItem from="1553819865560" duration="8283000" />
+      <workItem from="1553844856570" duration="3562000" />
+      <workItem from="1554077467855" duration="1546000" />
+      <workItem from="1554097986773" duration="2500000" />
+      <workItem from="1554102987448" duration="619000" />
+      <workItem from="1560503036112" duration="250000" />
+      <workItem from="1560736773182" duration="10053000" />
+      <workItem from="1560820565426" duration="8429000" />
+      <workItem from="1560903733004" duration="1601000" />
+      <workItem from="1560989876158" duration="1221000" />
+      <workItem from="1561076861147" duration="11675000" />
+      <workItem from="1561335870404" duration="1267000" />
+      <workItem from="1561421508373" duration="19058000" />
+      <workItem from="1561507866315" duration="13974000" />
+      <workItem from="1561594573270" duration="19416000" />
     </task>
     <task id="LOCAL-00001" summary="thread">
       <created>1552563882780</created>
@@ -507,17 +510,52 @@
       <option name="project" value="LOCAL" />
       <updated>1553246100482</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="spring">
+      <created>1553737360514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553737360514</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1553737390086</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553737390086</updated>
+    </task>
+    <task id="LOCAL-00007" summary="threadJoin and futureTask test">
+      <created>1553829312885</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553829312885</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1553842792114</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553842792114</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1553849660062</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1553849660062</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48327000" />
+    <option name="totallyTimeSpent" value="153266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0323363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22312045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -525,21 +563,22 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.035315987" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.040892195" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899627" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1802974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43866172" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.016728625" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="1.0" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899627" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3141264" />
       <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.6030719" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
@@ -547,6 +586,38 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32983023" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22312045" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899627" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15055762" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43866172" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="1.0" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3141264" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.6030719" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32983023" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -557,6 +628,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="thread" />
     <MESSAGE value="poll的时候size会减少,要注意" />
+    <MESSAGE value="spring" />
+    <MESSAGE value="threadJoin and futureTask test" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
@@ -570,393 +643,413 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java</url>
-          <line>272</line>
+          <url>jar://D:/maven/repository/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java</url>
+          <line>147</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/annotation/UserBean.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java</url>
+          <line>321</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.java</url>
+          <line>326</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/annotation/UserService.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/annotation/UserService.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/annotation/UserService.java</url>
+          <line>18</line>
+          <properties field="userBean" class="annotation.UserService" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/collection/mutable/ListBuffer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="209">
+          <caret line="477" lean-forward="true" selection-start-line="477" selection-end-line="477" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/Scope.class">
+    <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/collection/mutable/Queue.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="2">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.class">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter08/TupleDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="94" column="15" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
+        <state relative-caret-position="301">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/annotation/Scope.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter08/QueueDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+        <state relative-caret-position="281">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/env/AbstractEnvironment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="337" selection-start-line="337" selection-end-line="337" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/annotation/ScannedGenericBeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="1191" selection-start-line="1191" selection-end-line="1191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/type/filter/TypeFilter.class">
+    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/util/stream/Stream.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/util/concurrent/PriorityBlockingQueue.class">
+    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/util/Objects.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6739">
-          <caret line="322" column="25" selection-start-line="322" selection-start-column="25" selection-end-line="322" selection-end-column="25" />
+        <state relative-caret-position="113">
+          <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/util/concurrent/locks/ReentrantLock.class">
+    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/Object.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/type/filter/AnnotationTypeFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/reflect/GenericDeclaration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/reflect/Type.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/reflect/AnnotatedElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/Class.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="1313" column="56" lean-forward="true" selection-start-line="1313" selection-start-column="56" selection-end-line="1313" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1299">
-          <caret line="372" column="36" selection-start-line="372" selection-start-column="27" selection-end-line="372" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/util/Map.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/util/Collections.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="872" column="63" selection-start-line="872" selection-start-column="59" selection-end-line="872" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="365" column="24" lean-forward="true" selection-start-line="365" selection-start-column="24" selection-end-line="365" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/jmx/export/assembler/AbstractMBeanInfoAssembler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter05/MethodAndFunction.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/util/concurrent/Executors.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/util/concurrent/ScheduledThreadPoolExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="123" column="10" selection-start-line="123" selection-start-column="10" selection-end-line="123" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/util/concurrent/RejectedExecutionHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/util/concurrent/ThreadPoolExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298">
-          <caret line="480" column="24" selection-start-line="480" selection-start-column="24" selection-end-line="480" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/PriorityQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FinalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/annotation/ElementType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3036">
-          <caret line="165" column="34" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="34" />
+        <state relative-caret-position="105">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
-            <element signature="e#3564#3565#0" expanded="true" />
-            <element signature="e#3591#3592#0" expanded="true" />
-            <element signature="e#8837#8838#0" expanded="true" />
-            <element signature="e#8878#8879#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.class">
+    <entry file="jar://D:/jdk/jdk1.8.0_161/jre/lib/rt.jar!/java/util/function/Predicate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        <state relative-caret-position="151">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/util/Assert.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter08/FilterPredicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8096">
-          <caret line="370" column="28" selection-start-line="370" selection-start-column="28" selection-end-line="370" selection-end-column="28" />
+        <state relative-caret-position="36">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/util/ObjectUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter08/JavaListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+        <state relative-caret-position="189">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java">
+    <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/collection/immutable/Stream.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="205" column="19" selection-start-line="205" selection-start-column="19" selection-end-line="205" selection-end-column="19" />
+        <state relative-caret-position="132">
+          <caret line="555" column="21" selection-start-line="555" selection-start-column="21" selection-end-line="555" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/MyClassPathBeanDefinitionScanner.java">
+    <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/collection/LinearSeqOptimized.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="57" />
+          <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/UserBean.java">
+    <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/collection/TraversableOnce.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter09/ScanDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/collection/mutable/BufferLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter08/ListDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/collection/MapLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter08/MapOperateDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter09/FoldTestDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter08/MapOperateTest01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter08/MapDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter09/FoldDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter09/StreamDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/collection/SeqLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="674" column="15" selection-start-line="674" selection-start-column="15" selection-end-line="674" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter09/ViewDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter06/pa/PackageTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter06/p2/Tiger.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter06/p1/Tiger.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="138">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/ClassPathXmlTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter07/InnerClassDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter07/ImplicitDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter07/TraitDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter07/TraitDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter09/OverrideOperate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter09/MatchDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/MatchTypeDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/MatchArrayDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter08/ReduceDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter09/ParDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter09/ZipDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/MatchObject.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/collection/Seq.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/MatchVarDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/MidCaseDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/CustomTypeFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/CaseClassDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/SealedClassDemo01.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/core/type/filter/TypeFilter.java">
+    <entry file="file://D:/von/scala-2.11.8/scala-2.11.8/lib/scala-sources-2.12.4.tar/scala-sources-2.12.4/scala-2.12.4/src/library/scala/collection/immutable/List.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="149">
+          <caret line="297" column="21" selection-start-line="297" selection-start-column="21" selection-end-line="297" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/core/type/filter/AnnotationTypeFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/FunctionParameter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1794">
-          <caret line="105" column="58" selection-start-line="105" selection-start-column="58" selection-end-line="105" selection-end-column="58" />
-          <folding>
-            <element signature="e#1946#1947#0" expanded="true" />
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#3620#3621#0" expanded="true" />
-            <element signature="e#3663#3664#0" expanded="true" />
-            <element signature="e#3744#3745#0" expanded="true" />
-            <element signature="e#3786#3787#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="207">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/core/type/filter/AbstractTypeHierarchyTraversingFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter08/HighLevelFunction.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-          <folding>
-            <element signature="e#4140#4141#0" expanded="true" />
-            <element signature="e#4159#4160#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="191">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/PartialFunctionDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+        <state relative-caret-position="644">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/MyComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/chapter10/TypeInfer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        <state relative-caret-position="165">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
