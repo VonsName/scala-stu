@@ -22,12 +22,16 @@ object HighLevelFunction {
   /**
     * 高阶函数也可以返回一个函数类型
     * Int => 表示里面的匿名函数的参数类型
+    *
     * @param y
     * @return
     */
   def minus(y: Int): Int => Int = {
     x: Int => x * y //匿名函数,
   }
+
+  //等价上面的写法,里面的匿名函数引用外部的y变量,形成了一个闭包
+  def minus1(y: Int): Int => Int = (x: Int) => x + y
 
   //test是一个高阶函数,它接受一个函数作为参数,
   // f: Double => Double表示一个函数接受一个Double类型作为参数,返回类型也是Double
